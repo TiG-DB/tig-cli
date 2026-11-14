@@ -1,0 +1,3 @@
+[submodule "external/tig-lib"]
+	path = external/tig-lib
+	url = git@github.com:jchown/tig-lib.git
