@@ -1,7 +1,7 @@
 # tig-cli
 
-The `tig` command line tool for [TiG](https://github.com/jchown/tig-docs) (Timeline in Git) repositories. It is a thin
-layer over [`libtig`](https://github.com/jchown/tig-lib), pinned as a submodule in `external/tig-lib`, and is meant for
+The `tig` command line tool for [TiG](https://github.com/TiG-DB/tig-docs) (Timeline in Git) repositories. It is a thin
+layer over [`libtig`](https://github.com/TiG-DB/tig-lib), pinned as a submodule in `external/tig-lib`, and is meant for
 people and for scripts and agents alike.
 
 ```sh
