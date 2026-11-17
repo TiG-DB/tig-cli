@@ -5,7 +5,7 @@ layer over [`libtig`](https://github.com/TiG-DB/tig-lib), pinned as a submodule 
 people and for scripts and agents alike.
 
 ```sh
-tig init ./my-car --kind vehicle --vocabulary gtdb/1 --key ~/.ssh/tig_ed25519
+tig init ./my-car --kind vehicle --vocabulary vehicle/1 --key ~/.ssh/tig_ed25519
 tig -C ./my-car log
 tig -C ./my-car state --at 2024-03-11
 ```
@@ -36,3 +36,11 @@ cmake -S . -B build && cmake --build build && ctest --test-dir build
 
 The binary is `build/tig`. libgit2 is downloaded at configure time (pass `-DFETCHCONTENT_SOURCE_DIR_LIBGIT2=<dir>` to use a
 local copy) and built into the executable.
+
+## Licence
+
+Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE).
+
+The names "TiG" and "TiG Notary" and the TiG logos are not covered by that
+licence and may not be used without permission, except to say accurately that your
+work is compatible with TiG.
