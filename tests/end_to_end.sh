@@ -29,7 +29,7 @@ expect_exit 3 "$TIG" -C "$WORK/none" state
 
 # unsigned repository
 REPO="$WORK/unsigned"
-expect_exit 0 "$TIG" init "$REPO" --kind vehicle --vocabulary gtdb/1
+expect_exit 0 "$TIG" init "$REPO" --kind vehicle --vocabulary vehicle/1
 grep -q "unsigned" "$WORK/out" || fail "init output"
 expect_exit 0 "$TIG" -C "$REPO" state
 grep -q "kind: vehicle" "$WORK/out" || fail "state shows kind"
